@@ -1,0 +1,60 @@
+body {
+    width: 100%;
+    font-family: 'orbitron';
+}
+
+@font-face {
+    font-family: "orbitron";
+    src: url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+}
+
+#title-banner {
+    background-color: #282727ee;
+    height: 180px;
+    opacity: 90;
+}
+
+.banner {
+    position: relative;
+    left: 330px;
+    bottom: 200px;
+    color: #fff;
+    margin: auto;
+}
+
+#digitalBanner {
+ position: absolute;
+ z-index: -1;
+}
+
+.banner h1 {
+    font-size: 40px;
+}
+
+.banner h2 {
+    font-size: 15px;
+    position: absolute;
+    top: 30px;
+}
+
+.search-bar {
+    position: relative;
+    left: 400px;
+    bottom: 60px;
+    color: white;
+}
+
+.links a {
+    position: relative;
+    left: 1000px;
+    bottom: 235px;
+    margin: auto 15px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+a:hover {
+    text-decoration: overline;
+    color: teal;
+}
